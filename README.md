@@ -6,7 +6,7 @@
 An easy to use text effect library
 
 
-#### Start Right away
+#### Start right away
 
 To start working with Movements.js download the file from here.
 
@@ -83,4 +83,4 @@ Option | Type | Description
  string | String | Gets the value from the Codingstring from above
  parentID | String | Won't have a default value and NEEDS to be set, gets the value from TypewriterparentID from above
  codingtext | String | Used to show text, the Typewriterstring and string have the whole string, Typewritertext only the part that is shown and therefor it's getting larger and filled with the next letter
-	strArray | String-Array | Containing the string as an array with each letter seppareted 
+strArray | String-Array | Containing the string as an array with each letter seppareted 
