@@ -24,6 +24,7 @@ Then, before your closing ```<body>``` tag add:
 ```html
 <script type="text/javascript" src="//location to the javascript file"></script>
 ```
+
 ### Options
 The options depend on the function beneath you will find a explination for each function.
 
@@ -45,7 +46,7 @@ Option | Type | Description
 speed | Int | Gets the value from the Typwriterspeed from above
 string | String | Gets the value from the Typewriterstring from above
 parentID | String | Won't have a default value and NEEDS to be set, gets the value from TypewriterparentID from above
-isTag | Bool | Used to determine wich part of the string to show, filters out the ''' <p> ''' and other tags,
+isTag | Bool | Used to determine wich part of the string to show, filters out the ``` <p> ``` and other tags,
 Typewritertext | String | Used to show text, the Typewriterstring and string have the whole string, Typewritertext only the part that is shown and therefor it's getting larger and filled with the next letter
 
 
