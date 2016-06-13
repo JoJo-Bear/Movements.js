@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Movements.js Function preview by JoJo-Bear</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">Movements.js Function preview</h1>
+      <h2 class="project-tagline"></h2>
+      <a href="https://github.com/JoJo-Bear/Movements.js" class="btn">View on GitHub</a>
+      <a href="https://github.com/JoJo-Bear/Movements.js/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/JoJo-Bear/Movements.js/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
+
+    <section class="main-content">
+      <h1>
+<a id="movementsjs" class="anchor" href="#movementsjs" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Movements.js</h1>
+
+<hr>
+
+<p>An easy to use text effect library</p>
+
+<h4>
+<a id="start-right-away" class="anchor" href="#start-right-away" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Start right away</h4>
+
+<p>To start working with Movements.js download the file from here.</p>
+
+<h5>
+<a id="example-using-movementsjs" class="anchor" href="#example-using-movementsjs" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Example using Movements.js</h5>
+
+<p>Just add a link to the css file in your <code>&lt;head&gt;</code>:</p>
+
+<div class="highlight highlight-text-html-basic"><pre>&lt;<span class="pl-ent">link</span> <span class="pl-e">rel</span>=<span class="pl-s"><span class="pl-pds">"</span>stylesheet<span class="pl-pds">"</span></span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">"</span>text/css<span class="pl-pds">"</span></span> <span class="pl-e">href</span>=<span class="pl-s"><span class="pl-pds">"</span>//Location to the css file/&gt;</span>
+<span class="pl-s"></span></pre></div>
+
+<p>Then, before your closing <code>&lt;body&gt;</code> tag add:</p>
+
+<div class="highlight highlight-text-html-basic"><pre>&lt;<span class="pl-ent">script</span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">"</span>text/javascript<span class="pl-pds">"</span></span> <span class="pl-e">src</span>=<span class="pl-s"><span class="pl-pds">"</span>//location to the javascript file<span class="pl-pds">"</span></span>&gt;&lt;/<span class="pl-ent">script</span>&gt;</pre></div>
+
+<h3>
+<a id="options" class="anchor" href="#options" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Options</h3>
+
+<p>The options depend on the function beneath you will find a explination for each function.</p>
+
+<h3>
+<a id="typewriter" class="anchor" href="#typewriter" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Typewriter</h3>
+
+<p>Possibilities how to call</p>
+
+<div class="highlight highlight-source-js"><pre><span class="pl-k">&lt;</span>script<span class="pl-k">&gt;</span><span class="pl-en">Typewriter</span>(<span class="pl-s"><span class="pl-pds">"</span>TypewriterparentID<span class="pl-pds">"</span></span>);<span class="pl-k">&lt;</span><span class="pl-k">/</span>script<span class="pl-k">&gt;</span>
+<span class="pl-k">&lt;</span>script<span class="pl-k">&gt;</span><span class="pl-en">Typewriter</span>(<span class="pl-s"><span class="pl-pds">"</span>TypewriterparentID<span class="pl-pds">"</span></span>, <span class="pl-s"><span class="pl-pds">"</span>Typewriterstring<span class="pl-pds">"</span></span>);<span class="pl-k">&lt;</span><span class="pl-k">/</span>script<span class="pl-k">&gt;</span>
+<span class="pl-k">&lt;</span>script<span class="pl-k">&gt;</span><span class="pl-en">Typewriter</span>(<span class="pl-s"><span class="pl-pds">"</span>TypewriterparentID<span class="pl-pds">"</span></span>, <span class="pl-s"><span class="pl-pds">"</span>Typewriterstring<span class="pl-pds">"</span></span>, Typewriterspeed);<span class="pl-k">&lt;</span><span class="pl-k">/</span>script<span class="pl-k">&gt;</span></pre></div>
+
+<h4>
+<a id="parameters-to-give" class="anchor" href="#parameters-to-give" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Parameters to give</h4>
+
+<table>
+<thead>
+<tr>
+<th>Option</th>
+<th>Type</th>
+<th>Default</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>TypewriterparentID</td>
+<td>string</td>
+<td>-</td>
+<td>The id of the parent where you would like to have the tekst</td>
+</tr>
+<tr>
+<td>Typewriterstring</td>
+<td>string</td>
+<td>deze string is leeg</td>
+<td>This is the string you would like to show</td>
+</tr>
+<tr>
+<td>Typewriterspeed</td>
+<td>int</td>
+<td>200</td>
+<td>The speed in which the letters become visible smaller is faster</td>
+</tr>
+</tbody>
+</table>
+
+<h4>
+<a id="settings-it-has" class="anchor" href="#settings-it-has" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Settings it has</h4>
+
+<table>
+<thead>
+<tr>
+<th>Option</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>i</td>
+<td>Int</td>
+<td>Used for counting on wich position it is</td>
+</tr>
+<tr>
+<td>speed</td>
+<td>Int</td>
+<td>Gets the value from the Typwriterspeed from above</td>
+</tr>
+<tr>
+<td>string</td>
+<td>String</td>
+<td>Gets the value from the Typewriterstring from above</td>
+</tr>
+<tr>
+<td>parentID</td>
+<td>String</td>
+<td>Won't have a default value and NEEDS to be set, gets the value from TypewriterparentID from above</td>
+</tr>
+<tr>
+<td>isTag</td>
+<td>Bool</td>
+<td>Used to determine wich part of the string to show, filters out the <code>&lt;p&gt;</code> and other tags</td>
+</tr>
+<tr>
+<td>Typewritertext</td>
+<td>String</td>
+<td>Used to show text, the Typewriterstring and string have the whole string, Typewritertext only the part that is shown and therefor it's getting larger and filled with the next letter</td>
+</tr>
+</tbody>
+</table>
+
+<h3>
+<a id="decode" class="anchor" href="#decode" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Decode</h3>
+
+<p>Possibilities how to call</p>
+
+<div class="highlight highlight-source-js"><pre><span class="pl-k">&lt;</span>script<span class="pl-k">&gt;</span><span class="pl-en">Typewriter</span>(<span class="pl-s"><span class="pl-pds">"</span>CodingparentID<span class="pl-pds">"</span></span>);<span class="pl-k">&lt;</span><span class="pl-k">/</span>script<span class="pl-k">&gt;</span>
+<span class="pl-k">&lt;</span>script<span class="pl-k">&gt;</span><span class="pl-en">Typewriter</span>(<span class="pl-s"><span class="pl-pds">"</span>CodingparentID<span class="pl-pds">"</span></span>, <span class="pl-s"><span class="pl-pds">"</span>Codingstring<span class="pl-pds">"</span></span>);<span class="pl-k">&lt;</span><span class="pl-k">/</span>script<span class="pl-k">&gt;</span>
+<span class="pl-k">&lt;</span>script<span class="pl-k">&gt;</span><span class="pl-en">Typewriter</span>(<span class="pl-s"><span class="pl-pds">"</span>CodingparentID<span class="pl-pds">"</span></span>, <span class="pl-s"><span class="pl-pds">"</span>Codingstring<span class="pl-pds">"</span></span>, Codingspeed);<span class="pl-k">&lt;</span><span class="pl-k">/</span>script<span class="pl-k">&gt;</span></pre></div>
+
+<h4>
+<a id="parameters-to-give-1" class="anchor" href="#parameters-to-give-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Parameters to give</h4>
+
+<table>
+<thead>
+<tr>
+<th>Option</th>
+<th>Type</th>
+<th>Default</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CodingparentID</td>
+<td>string</td>
+<td>-</td>
+<td>The id of the parent where you would like to have the tekst</td>
+</tr>
+<tr>
+<td>Codingstring</td>
+<td>string</td>
+<td>deze string is leeg</td>
+<td>This is the string you would like to show</td>
+</tr>
+<tr>
+<td>Codingspeed</td>
+<td>int</td>
+<td>100</td>
+<td>The speed in which the letters become visible smaller is faster</td>
+</tr>
+</tbody>
+</table>
+
+<h4>
+<a id="settings-it-has-1" class="anchor" href="#settings-it-has-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Settings it has</h4>
+
+<table>
+<thead>
+<tr>
+<th>Option</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>i</td>
+<td>Int</td>
+<td>Used in the for-loop consitsing the amount of characters of the string</td>
+</tr>
+<tr>
+<td>searchPosition</td>
+<td>Int</td>
+<td>Searches the letter in the alphabet to compare with</td>
+</tr>
+<tr>
+<td>stringPosition</td>
+<td>Int</td>
+<td>Position of the string</td>
+</tr>
+<tr>
+<td>start</td>
+<td>Bool</td>
+<td>Used to see if function has started before, ifso no new array is needed</td>
+</tr>
+<tr>
+<td>ABC</td>
+<td>String-Array</td>
+<td>The complete alphabet with some special characters</td>
+</tr>
+<tr>
+<td>speed</td>
+<td>Int</td>
+<td>Gets the value from the Codingspeed from above</td>
+</tr>
+<tr>
+<td>string</td>
+<td>String</td>
+<td>Gets the value from the Codingstring from above</td>
+</tr>
+<tr>
+<td>parentID</td>
+<td>String</td>
+<td>Won't have a default value and NEEDS to be set, gets the value from TypewriterparentID from above</td>
+</tr>
+<tr>
+<td>codingtext</td>
+<td>String</td>
+<td>Used to show text, the Typewriterstring and string have the whole string, Typewritertext only the part that is shown and therefor it's getting larger and filled with the next letter</td>
+</tr>
+<tr>
+<td>strArray</td>
+<td>String-Array</td>
+<td>Containing the string as an array with each letter seppareted</td>
+</tr>
+</tbody>
+</table>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/JoJo-Bear/Movements.js">Movements.js Function preview</a> is maintained by <a href="https://github.com/JoJo-Bear">JoJo-Bear</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+  
+  </body>
+</html>
