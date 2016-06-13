@@ -3,7 +3,7 @@
 
 [1]: <https://github.com/JoJo-Bear/Movements.js/>
 
-_ An easy acces text effect _
+An easy to use text effect library
 
 
 #### Start Right away
@@ -24,8 +24,10 @@ Then, before your closing ```<body>``` tag add:
 ```html
 <script type="text/javascript" src="//location to the javascript file"></script>
 ```
+### Options
+The options depend on the function beneath you will find a explination for each function.
 
-### Settings
+#### Settings
 
 Option | Type | Default | Description
 ------ | ---- | ------- | -----------
