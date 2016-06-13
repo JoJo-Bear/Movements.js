@@ -29,6 +29,12 @@ Then, before your closing ```<body>``` tag add:
 The options depend on the function beneath you will find a explination for each function.
 
 ### Typewriter
+How to call
+```Javascript 
+<script>Typewriter("TypewriterparentID");</script>
+<script>Typewriter("TypewriterparentID", "Typewriterstring");</script>
+<script>Typewriter("TypewriterparentID", "Typewriterstring", Typewriterspeed);</script>
+```
 
 #### Parameters to give
 
