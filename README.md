@@ -10,6 +10,10 @@ An easy to use text effect library
 
 To start working with Movements.js download the file from here.
 
+### Demo
+
+[http://jojo-bear.github.io/Movements.js](http://jojo-bear.github.io/Movements.js)
+
 
 #####Example using Movements.js
 
