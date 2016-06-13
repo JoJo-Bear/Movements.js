@@ -29,7 +29,7 @@ Then, before your closing ```<body>``` tag add:
 The options depend on the function beneath you will find a explination for each function.
 
 ### Typewriter
-How to call
+Possibilities how to call
 ```Javascript 
 <script>Typewriter("TypewriterparentID");</script>
 <script>Typewriter("TypewriterparentID", "Typewriterstring");</script>
@@ -56,7 +56,12 @@ isTag | Bool | Used to determine wich part of the string to show, filters out th
 Typewritertext | String | Used to show text, the Typewriterstring and string have the whole string, Typewritertext only the part that is shown and therefor it's getting larger and filled with the next letter
 
 ### Decode
-
+Possibilities how to call
+```Javascript 
+<script>Typewriter("CodingparentID");</script>
+<script>Typewriter("CodingparentID", "Codingstring");</script>
+<script>Typewriter("CodingparentID", "Codingstring", Codingspeed);</script>
+```
 #### Parameters to give
 
 Option | Type | Default | Description
